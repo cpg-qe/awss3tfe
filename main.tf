@@ -12,6 +12,9 @@ variable "first_account_id" {
 variable "region" {
   type  = string
 }
+variable "dummy" {
+  type  = string
+}
 resource "aws_s3_bucket" "shub1_test_bucket" {
   bucket = "cpg-automation-test-bucket-${random_id.id.hex}"
 }
