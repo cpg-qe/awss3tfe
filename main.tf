@@ -12,7 +12,7 @@ variable "first_account_id" {
 variable "region" {
   type  = string
 }
-variable "dummy_region" {
+variable "dummy1" {
   type  = string
 }
 resource "aws_s3_bucket" "shub1_test_bucket" {
